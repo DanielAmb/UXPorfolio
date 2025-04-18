@@ -86,3 +86,27 @@ document.querySelectorAll('.view-details-btn').forEach(btn => {
         details.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Toggle project details
+    const toggleButtons = document.querySelectorAll('.toggle-details-btn');
+    
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const projectCard = this.closest('.project-card');
+            const details = projectCard.querySelector('.project-details');
+            const isExpanded = details.classList.contains('active');
+            
+            // Toggle the active class
+            details.classList.toggle('active');
+            
+            // Update button text
+            this.textContent = isExpanded ? 'View Case Study Details' : 'Hide Details';
+            
+            // Smooth scroll to show the expanded content
+            if (!isExpanded) {
+                details.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        });
+    });
+});
