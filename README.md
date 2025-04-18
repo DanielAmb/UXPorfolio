@@ -29,12 +29,11 @@ Welcome to my professional UX design portfolio showcasing my user-centered desig
 - HTML5, CSS3, JavaScript
 - GitHub Pages (hosting)
 - Figma (design process documentation)
-- Google Analytics (optional)
 
 ## How to Use
 1. Visit the live portfolio: [https://danielamb.github.io/UXPortfolio/](https://danielamb.github.io/UXPortfolio/)
 2. Navigate through projects using the main menu
-3. Click "View Case Study Details" for project insights
+3. Click "View User Study Details" for project insights
 4. Contact form is functional (requires backend setup)
 
 ## Setup Locally
