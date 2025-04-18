@@ -68,3 +68,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+document.querySelectorAll('.view-details-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const details = this.nextElementSibling;
+        const isHidden = details.style.display === 'none';
+        
+        if (isHidden) {
+            details.style.display = 'block';
+            this.textContent = 'Hide Details';
+        } else {
+            details.style.display = 'none';
+            this.textContent = 'View Case Study Details';
+        }
+        
+        // Scroll to show the expanded content
+        details.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+});

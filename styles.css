@@ -536,3 +536,34 @@ p {
         padding: 3rem 0;
     }
 }
+
+.project-details {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--light-gray);
+    animation: fadeIn 0.3s ease-out;
+}
+
+.project-details h4 {
+    margin-top: 1rem;
+    color: var(--primary-color);
+}
+
+.tools-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.tools-list span {
+    background-color: var(--light-gray);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
