@@ -1,31 +1,43 @@
-# UX Portfolio
+# Daniel Ambrose - UX Portfolio
 
-This is my professional UX design portfolio hosted on GitHub Pages.
+[![GitHub Pages](https://img.shields.io/badge/View-Live%20Portfolio-blue?style=for-the-badge)](https://danielamb.github.io/UXPortfolio/)
 
-## Features
+Welcome to my professional UX design portfolio showcasing my user-centered design process, research methodologies, and interactive prototypes.
 
-- Responsive design that works on all devices
-- Clean, modern aesthetic
-- Case study showcase
-- Contact form
-- Easy to customize
+## Featured Projects
+
+### 1. AI Outfit Analyzer
+- Full-stack AI-powered web application using Django and PyTorch
+- Analyzes user-uploaded outfits using image classification and color theory
+- Provides personalized fashion insights and recommendations
+- [GitHub Repository](https://github.com/DanielAmb/TryEmOn)
+
+### 2. Social Media Impact Study
+- Comprehensive research on correlation between social media usage and academic performance
+- Surveyed 150+ Emory University students
+- Quantitative analysis with Python (Pandas, NumPy)
+- Statistical modeling and data visualization
+
+## Portfolio Features
+- Responsive design (mobile, tablet, desktop)
+- Interactive case study details
+- Clean, accessible interface
+- Fast loading performance
+- Dark/light mode ready
+
+## Technologies Used
+- HTML5, CSS3, JavaScript
+- GitHub Pages (hosting)
+- Figma (design process documentation)
 
 ## How to Use
+1. Visit the live portfolio: [https://danielamb.github.io/UXPortfolio/](https://danielamb.github.io/UXPortfolio/)
+2. Navigate through projects using the main menu
+3. Click "View User Study Details" for project insights
+4. Contact form is functional (requires backend setup)
 
-1. Fork this repository
-2. Replace the placeholder content with your own information
-3. Add your own project images to the `images` folder
-4. Customize colors and styles in `styles/main.css`
-5. Enable GitHub Pages in your repository settings
-
-## Customization
-
-- Update your personal information in `index.html`
-- Change the color scheme by modifying the CSS variables in `styles/main.css`
-- Add more projects by duplicating the project card HTML structure
-- Update the design process steps if needed
-
-## Credits
-
-- Fonts from Google Fonts
-- Icons from Font Awesome
+## Setup Locally
+```bash
+git clone https://github.com/DanielAmb/UXPortfolio.git
+cd UXPortfolio
+# Open index.html in your browser
