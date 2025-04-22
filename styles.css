@@ -567,42 +567,6 @@ p {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
-/* 
-.project-buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    flex-wrap: wrap;
-}
-
-.btn-tertiary {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: var(--border-radius);
-    font-weight: 500;
-    transition: var(--transition);
-    background-color: var(--dark-color);
-    color: white;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-}
-
-.btn-tertiary:hover {
-    background-color: #333;
-    transform: translateY(-2px);
-}
-
-@media (max-width: 576px) {
-    .project-buttons {
-        flex-direction: column;
-    }
-    
-    .project-buttons .btn {
-        width: 100%;
-    }
-} */
 
 .project-details {
     max-height: 0;
