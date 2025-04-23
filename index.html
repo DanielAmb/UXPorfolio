@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo">
+            <div class="logo" onclick="window.location.reload();">
                 <a href="#">UX Portfolio</a>
             </div>
             <nav class="nav">
@@ -39,7 +39,7 @@
                     <a href="#work" class="btn btn-primary">View Our Work</a>
                 </div>
                 <div class="hero-image">
-                    <img src="group_pic.png" alt="Group Photo">
+                    <img src="group.jpg" alt="Group Photo">
                 </div>
             </div>
         </section>
@@ -53,22 +53,21 @@
 
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="background.png" alt="Social media impact study visualization">
+                            <img src="Social_media.png" alt="Social media impact study visualization">
                         </div>
                         <div class="project-content">
                             <h3>Social Media Impact on Academic Performance</h3>
-                            <p>A comprehensive user study analyzing the correlation between short-form social media usage and academic performance among Emory University students. Designed and executed a survey methodology, collected data from 150+ students, and performed statistical analysis to identify patterns in media consumption and GPA outcomes.</p>
+                            <p>A comprehensive user study analyzing the correlation between short-form social media usage and academic performance among Emory University students. Designed and executed a survey methodology, collected quantitative and qualitative data from Emory students, and performed statistical analysis to identify patterns in media consumption and GPA outcomes.</p>
                             <div class="project-tags">
                                 <span>User Research</span>
                                 <span>Data Analysis</span>
                                 <span>Survey Design</span>
                                 <span>Statistical Modeling</span>
-                                <!-- <span>Python</span> -->
                             </div>
 
                             <div class="project-buttons">
                                 <button class="btn btn-secondary toggle-details-btn">View User Study Details</button>
-                                <a href="https://docs.google.com/document/d/1c3tIx9r-OgnqEhQ8Gl6dmwoKDJi_VXa7iUCUDpL8kso/edit?usp=sharing" class="btn btn-secondary">View Full User Study</a>
+                                <a href="https://docs.google.com/presentation/d/1fXgS3NcebfV0DjDabVSMmMK81bhApsGrQ22xuAoHgAw/edit?usp=drivesdk" class="btn btn-secondary">View Full User Study</a>
                             </div>
 
                             <!-- Hidden details that will be shown when button is clicked -->
@@ -78,18 +77,17 @@
                                 
                                 <h4>Methodology</h4>
                                 <ul>
-                                    <li>Surveyed 150+ Emory University students</li>
+                                    <li>Surveyed current Emory University students</li>
                                     <li>Quantitative analysis of hours spent vs GPA</li>
                                     <li>Qualitative assessment of self-perceived impact</li>
-                                    <li>Cohen's Kappa reliability measure (κ = 0.72 - Satisfactory agreement)</li>
                                 </ul>
                                 
                                 <h4>Key Findings</h4>
                                 <ul>
-                                    <li>Inverse correlation between social media hours and GPA (r = -0.42)</li>
-                                    <li>63% of heavy users (4+ hrs/day) reported GPA below 3.4</li>
-                                    <li>72% of respondents agreed they overuse social media</li>
-                                    <li>TikTok and Instagram accounted for 58% of total usage</li>
+                                    <li>Slight negative correlation between social media hours and GPA</li>
+                                    <li>86% of respondents used Instagram most frequently</li>
+                                    <li>Respondents with a GPA below 3.0 used social media the most</li>
+                                    <li>Students who believe they overuse the social media tend to have a lower GPA</li>
                                 </ul>
                                 
                                 <h4>Tools Used</h4>
@@ -105,24 +103,6 @@
 
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="background.png" alt="AI Outfit Analyzer screenshot">
-                        </div>
-                        <div class="project-content">
-                            <h3>AI Outfit Analyzer</h3>
-                            <p>Designed and developed a full-stack AI-powered web application using Django and PyTorch that analyzes user-uploaded outfits based on image classification and color theory, providing personalized fashion insights to enhance style and aesthetic choices.</p>
-                            <div class="project-tags">
-                                <span>UX Design</span>
-                                <span>Django</span>
-                                <span>PyTorch</span>
-                                <span>Computer Vision</span>
-                                <span>Color Theory</span>
-                            </div>
-                            <a href="https://github.com/DanielAmb/TryEmOn" target="_blank" class="btn btn-secondary">View Project</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-image">
                             <img src="background.png" alt="Project 3 screenshot">
                         </div>
                         <div class="project-content">
@@ -130,8 +110,8 @@
                             <p>We are currently working on several new projects that combine UX principles with technical implementation. Check back soon for updates!</p>
                             <div class="project-tags">
                                 <span>UX Research</span>
-                                <span>Prototyping</span>
-                                <span>Frontend Development</span>
+                                <span>HCI Design Methods</span>
+                                <span>Full-Stack Development</span>
                             </div>
                             <a href="https://github.com/DanielAmb/UXPortfolio" target="_blank" class="btn btn-secondary">View GitHub</a>
                         </div>
@@ -174,7 +154,7 @@
                         </div>
                     </div>
                     <div class="about-image">
-                        <img src="group_pic.png" alt="UX Team Photo">
+                        <img src="group.jpg" alt="UX Team Photo">
                     </div>
                 </div>
             </div>
@@ -255,11 +235,6 @@
                             </a>
                         </div>
                     </div>
-                    
-                    <div class="contact-image">
-                        <img src="pic.png" alt="picture">
-                        <p class="availability">Currently available for freelance opportunities and collaborations.</p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -269,7 +244,7 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; <span id="year"></span> Emory CS 485: Design Methods in HCI. All rights reserved.</p>
-            <a href="#" class="back-to-top">
+            <a href="#top" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
                 <i class="fas fa-arrow-up"></i>
                 <span class="sr-only">Back to top</span>
             </a>
